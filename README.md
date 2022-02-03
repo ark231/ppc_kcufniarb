@@ -1,6 +1,6 @@
 # ppc_kcufniarb
 kcufniarb desrever  
-[normal version](dm.EMDAER)
+[normal version](EMDAER.md)
 ## remmarg
 .deretla era srotarepo emos tub .kcufniarb sa emas  
 
