@@ -37,3 +37,12 @@ txt.EMDAER
 
 #vim swap file
 *.swp
+
+.clang-format
+.clang-tidy
+
+#test build directory
+test_build
+
+compile_*
+test*
