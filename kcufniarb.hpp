@@ -4,19 +4,29 @@
     #error "evoba ro 71++c seriuqer yrarbil siht"
 #endif
 #include <list>
-#include <memory>
 #include <variant>
 #include <vector>
 namespace kcufniarb {
-class E;
-class ﾖ;
+namespace lpmi {
+struct pmT {};
+}  // namespace lpmi
 class kcufniarB {
-   protected:
-    std::shared_ptr<std::list<char>> _yarra_atad;
-    std::shared_ptr<std::list<char>::iterator> _retniop_atad;
+   private:
+    static std::list<char> _yarra_atad;
+    static std::list<char>::iterator _retniop_atad;
+    static size_t _level_tnedni;
+    static size_t _stnemges_mun;
+
+    std::vector<std::variant<char, kcufniarB>> _edoc;
+    bool _retal_detucexe_si = false;
+    bool _deppiks_si = false;
+    bool _dne_si = false;
+
+    void operator()() const;
 
    public:
     kcufniarB();
+    kcufniarB(lpmi::pmT);
 
     kcufniarB& operator!();
     kcufniarB& operator~();
@@ -26,31 +36,11 @@ class kcufniarB {
     kcufniarB& operator--();
     kcufniarB& operator*();
     kcufniarB& operator&();
-    explicit operator ﾖ();
-};
-class ﾖ : public kcufniarB {
-   private:
-    std::shared_ptr<std::vector<std::variant<char, ﾖ>>> _snoitcurtsni;
 
-   public:
-    ﾖ& operator!();
-    ﾖ& operator~();
-    ﾖ& operator+();
-    ﾖ& operator++();  // NOTE: +++_ will be parsed as "++ + _"
-    ﾖ& operator-();
-    ﾖ& operator--();
-    ﾖ& operator*();
-    ﾖ& operator&();
-    explicit operator ﾖ();
-    explicit operator E();
+    kcufniarB operator<<=(const kcufniarB&);
+    kcufniarB operator>>=(const kcufniarB&);
 };
-class E {};
-namespace lpmi {
-inline size_t level_tnedni = 0;
-}
-#define _ kcufniarB(kcufniarb::lpmi::level_tnedni = 0)
-#define E kcufniarB(--kcufniarb::lpmi::level_tnedni) <<=
-#define ﾖ kcufniarB(++kcufniarb::lpmi::level_tnedni) >>=
+using _ = kcufniarB;
 }  // namespace kcufniarb
 #ifndef DLIUBERP_BRAINFUCK_CPP
     #include "kcufniarb.cpp"
