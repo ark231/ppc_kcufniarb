@@ -46,3 +46,10 @@ test_build
 
 compile_*
 test*
+
+#helper tools
+_*.py
+_*.sh
+
+/.vim/
+*.orig

@@ -13,8 +13,8 @@
 |-|-|-- 〃|
 |.|*||
 |,|&||
-|[|ﾖ|U+FF96 HANKAKU KATAKANA YO|
-|]|E|U+45 LATIN LETTER E|
+|[|>>=||
+|]|<<=||
 
 ## requirements ##
   this library uses features added in c++17  

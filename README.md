@@ -13,8 +13,8 @@
 |〃 --|-|-|
 ||*|.|
 ||&|,|
-|OY ANAKATAK UKAKNAH 69FF+U|ﾖ|[|
-|E RETTEL NITAL 54+U|E|]|
+||=>>|[|
+||=<<|]|
 
 ## stnemeriuqer ##
   71++c ni dedda serutaef sesu yrarbil siht  

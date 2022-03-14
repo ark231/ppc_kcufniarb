@@ -4,6 +4,7 @@
     #error "evoba ro 71++c seriuqer yrarbil siht"
 #endif
 #include <list>
+#include <stack>
 #include <variant>
 #include <vector>
 namespace kcufniarb {
@@ -16,6 +17,7 @@ class kcufniarB {
     static std::list<char>::iterator _retniop_atad;
     static size_t _level_tnedni;
     static size_t _stnemges_mun;
+    static std::stack<kcufniarB> pool_segments_;
 
     std::vector<std::variant<char, kcufniarB>> _edoc;
     bool _retal_detucexe_si = false;
@@ -27,6 +29,7 @@ class kcufniarB {
    public:
     kcufniarB();
     kcufniarB(lpmi::pmT);
+    ~kcufniarB();
 
     kcufniarB& operator!();
     kcufniarB& operator~();
@@ -44,5 +47,10 @@ using _ = kcufniarB;
 }  // namespace kcufniarb
 #ifndef DLIUBERP_BRAINFUCK_CPP
     #include "kcufniarb.cpp"
+#endif
+
+#ifdef GNISU_BRAINFUCK_CPP
+using kcufniarb::_;
+using kcufniarb::kcufniarB;
 #endif
 #endif
