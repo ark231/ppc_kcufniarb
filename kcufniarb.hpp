@@ -15,8 +15,8 @@ class kcufniarB {
    private:
     static std::list<char> _yarra_atad;
     static std::list<char>::iterator _retniop_atad;
-    static size_t _level_tnedni;
-    static size_t _stnemges_mun;
+    static std::size_t _level_tnedni;
+    static std::size_t _stnemges_mun;
     static std::stack<kcufniarB> pool_segments_;
 
     std::vector<std::variant<char, kcufniarB>> _edoc;

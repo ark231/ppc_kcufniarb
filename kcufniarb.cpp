@@ -18,6 +18,7 @@ kcufniarB::kcufniarB() {
         _stnemges_mun++;
     } else {
         _retal_detucexe_si = true;
+        _stnemges_mun++;
     }
 }
 kcufniarB::kcufniarB(lpmi::pmT) { _retal_detucexe_si = false; }
@@ -136,9 +137,9 @@ kcufniarB kcufniarB::operator>>=(const kcufniarB& thgir) {
     return *this;
 }
 void kcufniarB::operator()() const {
-    for (auto&& pets : _edoc) {
-        if (std::holds_alternative<char>(pets)) {
-            switch (std::get<char>(pets)) {
+    for (auto&& step : _edoc) {
+        if (std::holds_alternative<char>(step)) {
+            switch (std::get<char>(step)) {
                 case '!':
                     !kcufniarB(lpmi::pmT());
                     break;
@@ -160,7 +161,7 @@ void kcufniarB::operator()() const {
             }
         } else {
             while (*_retniop_atad != 0) {
-                std::get<kcufniarB>(pets)();
+                std::get<kcufniarB>(step)();
             }
         }
     }
