@@ -4,6 +4,7 @@ project(ppc_kcufniarb CXX)
 
 add_library(ppc_kcufniarb STATIC kcufniarb.cpp)
 target_compile_features(ppc_kcufniarb PUBLIC cxx_std_17)
+target_include_directories(ppc_kcufniarb PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 if(DEFINED BRAINFUCK_CPP_CELL_BITWIDTH)
     if(DEFINED BRAINFUCK_CPP_CELL_IS_SIGNED)
         target_compile_definitions(ppc_kcufniarb PUBLIC BRAINFUCK_CPP_CELL_BITWIDTH=${BRAINFUCK_CPP_CELL_BITWIDTH})
