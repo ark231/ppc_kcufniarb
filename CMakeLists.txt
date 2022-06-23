@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.23.2)
 
-project(ppc_kcufniarb::test CXX)
+project(ppc_kcufniarb CXX)
 
 add_library(ppc_kcufniarb STATIC kcufniarb.cpp)
 target_compile_features(ppc_kcufniarb PUBLIC cxx_std_17)
