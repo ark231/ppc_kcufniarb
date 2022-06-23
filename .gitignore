@@ -53,3 +53,5 @@ _*.sh
 
 /.vim/
 *.orig
+.cmake-format.*
+/.cache/

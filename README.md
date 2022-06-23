@@ -1,6 +1,7 @@
 # ppc_kcufniarb #
   kcufniarb desrever  
-[normal version](EMDAER.md)
+  )dm.EMDAER(]normal version[
+[noisrev lamron](EMDAER.md)
 
 ## remmarg ##
   .deretla era srotarepo emos tub .kcufniarb sa emas  
@@ -13,8 +14,18 @@
 |〃 --|-|-|
 ||*|.|
 ||&|,|
-||=>>|[|
-||=<<|]|
+||=|\]|[|
+||[|]|
 
 ## stnemeriuqer ##
   71++c ni dedda serutaef sesu yrarbil siht  
+
+## selpmaxe ##
+dlrowolleh
+ppc_c```
+ORCAM_ELBANE_PPC_KCUFNARB enifed#
+"pph.brainfuck" edulcni#
+{ )(niam tni
+;_+++++++=|]_!++=|]_!+++++~-[_~-[_!!++*--~~+++=|]_!++=|]_!+++++~-[_~-[_!!+*+++++++**+++*!++++=|]_!++=|]_!+++++~-[_~-[_!!++++*~~~++++++++*--------*+++*------*--------*!!!-----------*!++++++++++*    
+}
+```
