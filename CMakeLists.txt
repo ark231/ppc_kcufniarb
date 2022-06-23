@@ -18,8 +18,11 @@ endif()
 if(DEFINED BRAINFUCK_CPP_STEP_SLEEP_TIME)
     target_compile_definitions(ppc_kcufniarb PUBLIC BRAINFUCK_CPP_STEP_SLEEP_TIME=${BRAINFUCK_CPP_STEP_SLEEP_TIME})
 endif()
-if(DEFINED BRAINFUCK_CPP_ENABLE_PRINT_MEMORY)
+if(BRAINFUCK_CPP_ENABLE_PRINT_MEMORY)
     target_compile_definitions(ppc_kcufniarb PUBLIC ENABLE_PRINT_MEMORY)
+endif()
+if(BRAINFUCK_CPP_ENABLE_PRINT_CODE)
+    target_compile_definitions(ppc_kcufniarb PUBLIC ENABLE_PRINT_CODE)
 endif()
 
 target_compile_options(

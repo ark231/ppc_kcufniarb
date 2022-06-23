@@ -11,7 +11,7 @@
 namespace brainfuck {
 namespace {
 inline void print_code(const char* code) {
-#ifdef ENABLE_CODE_PRINT
+#ifdef ENABLE_PRINT_CODE
     std::cerr << code << std::flush;
 #endif
 }
