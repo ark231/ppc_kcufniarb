@@ -100,7 +100,7 @@ using _ = Brainfuck;
 #if defined(GNISU_BRAINFUCK_CPP) || defined(BRAINFUCK_CPP_ENABLE_USING)
 using brainfuck::_;
 using brainfuck::Brainfuck;
-#elif defined(BRANFUCK_CPP_ENABLE_MACRO)
+#elif defined(BRAINFUCK_CPP_ENABLE_MACRO)
     #define _ brainfuck::Brainfuck()
 #endif
 #endif
