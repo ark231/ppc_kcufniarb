@@ -42,7 +42,7 @@ inline void print_memory(const char* code, std::list<impl::CellType>& data_array
         exit(EXIT_FAILURE);
     }
     for (auto i = 0; i < std::distance(data_array.begin(), data_pointer); i++) {
-        std::cerr << std::string(sizeof(impl::CellType::value_type) * 2, ' ');
+        std::cerr << std::string(sizeof(impl::CellType::value_type) * 2 + 1, ' ');
     }
     std::cerr << std::string(sizeof(impl::CellType::value_type), ' ') << "^";
     std::cerr << "\e[1F";
