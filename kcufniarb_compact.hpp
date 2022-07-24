@@ -79,18 +79,18 @@ if(d){std           ::cerr<<                                   "\n\n\e[1F\e[1F" 
        
 
 
-       deque<std              ::variant<char              ,Brainfuck>>M;    bool N=                    false,O=false
-       ,P=false,           Q=false;     void Z()          ()const{ for (    auto&&a                    :M){if(std::
-   holds_alternative       <char>(a     )){switch                 (std::    get<char                   >(a))
-   {case'!':!Brainfuck     (A::B())       ;break;                 case'~'   :~Brainfuck (A::B());break ;case
-   '+':+Brainfuck(A::B        ());break;case'-':                  -         Brainfuck   (A::B());break ;case
-      '*':      *             Brainfuck(A::B())                   ;break    ;case'&'   :&Brainfuck(A::  B());
-    break;    default             :break;                         }}Y{       while(                     *K!=0)
-    {std::        get<           Brainfuck>      (a)()            ;}}}}     Brainfuck  /*forgot to */   (A::B)
-                             {N=O=      false    ;}               public:   Brainfuck  /*add a line */  (){if(
-                             L==0)      {J=std   ::               list<A    ::E>();J   /*here....  */   .push_back(0)
-                             ;K=J.       begin();N=!(     P=O=true);L++;    }Y{O=!(N                    =true);L++;}}
-                             ~Brainfuck(){if(O){L=0;}     }Brainfuck&Z!(    ){if(N){M                   .push_back('!'
+       deque<std              ::variant<char              ,Brainfuck>>M;    bool N=                      false,O=false
+       ,P=false,           Q=false;     void Z()          ()const{ for (    auto&&a                      :M){if(std::
+   holds_alternative       <char>(a     )){switch                 (std::    get<char                     >(a))
+   {case'!':!Brainfuck     (A::B())       ;break;                 case'~'   :~Brainfuck (A::B());break   ;case
+   '+':+Brainfuck(A::B        ());break;case'-':                  -         Brainfuck   (A::B());break   ;case
+      '*':      *             Brainfuck(A::B())                   ;break    ;case'&'   :&Brainfuck(A::    B());
+    break;    default             :break;                         }}Y{       while(                      *K!=0)
+    {std::        get<           Brainfuck>      (a)()            ;}}}}     Brainfuck  /*forgot to */    (A::B)
+                             {N=O=      false    ;}               public:   Brainfuck  /*add a line */   (){if(
+                             L==0)      {J=std   ::               list<A    ::E>();J   /*here....  */    .push_back(0)
+                             ;K=J.       begin();N=!(     P=O=true);L++;    }Y{O=!(N                     =true);L++;}}
+                             ~Brainfuck(){if(O){L=0;}     }Brainfuck&Z!(    ){if(N){M                    .push_back('!'
                                                 );}Y{
                                                   if(
 
