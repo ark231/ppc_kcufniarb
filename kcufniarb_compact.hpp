@@ -86,9 +86,9 @@ if(d){std           ::cerr<<                                   "\n\n\e[1F\e[1F" 
    '+':+Brainfuck(A::B        ());break;case'-':                  -         Brainfuck   (A::B());break ;case
       '*':      *             Brainfuck(A::B())                   ;break    ;case'&'   :&Brainfuck(A::  B());
     break;    default             :break;                         }}Y{       while(                     *K!=0)
-    {std::        get<           Brainfuck>      (a)()            ;}}}}     Brainfuck                   (A::B)
-                             {N=O=      false    ;}               public:   Brainfuck                   (){if(
-                             L==0)      {J=std   ::               list<A    ::E>();J                    .push_back(0)
+    {std::        get<           Brainfuck>      (a)()            ;}}}}     Brainfuck  /*forgot to */   (A::B)
+                             {N=O=      false    ;}               public:   Brainfuck  /*add a line */  (){if(
+                             L==0)      {J=std   ::               list<A    ::E>();J   /*here....  */   .push_back(0)
                              ;K=J.       begin();N=!(     P=O=true);L++;    }Y{O=!(N                    =true);L++;}}
                              ~Brainfuck(){if(O){L=0;}     }Brainfuck&Z!(    ){if(N){M                   .push_back('!'
                                                 );}Y{
